@@ -1,0 +1,11 @@
+.clearfix:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+/*
+ *在IE6版本下需要添加如下代码：
+ */
+.clearfix{
+  zoom: 1;
+}
